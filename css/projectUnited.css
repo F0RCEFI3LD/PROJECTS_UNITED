@@ -14,6 +14,10 @@
   outline: none;
 }
 
+.bg-primary {
+  background-color: rgb(51, 51, 51) !important;
+}
+
 #mainNav .navbar-brand {
   color: #ffffff;
   font-weight: 700;
@@ -144,20 +148,20 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #ffffff;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #ff0000;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #ff0000;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #ff0000 !important;
 }
 
 .text-white-50 {
@@ -183,7 +187,7 @@
 body {
   font-family: 'Nunito';
   letter-spacing: 0.0625em;
-  
+  background-color: #212529;
 }
 
 html {
@@ -200,27 +204,32 @@ html {
 }
 
 
-a {
-  color: #64a19d;
+
+
+.parallax{
+  margin-top: 2rem;
+  padding: 1rem 0;
+  min-height: 100vh;
+  min-width: 100vh;
+  max-width: 1920px;
+  max-height: 1080px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 0%;
 }
 
-a:focus, a:hover {
-  text-decoration: none;
-  color: #3c6360;
+.Olenveld{
+  background-image: url('../img/olenveld.png');
 }
-
-.bg-black {
-  background-color: #161616 !important;
+.Draketand{
+  background-image: url('../img/draketand.png');
 }
-
-.bg-primary {
-  background-color: #64a19d !important;
+.Holds{
+  background-image: url('../img/holds.jpg');
 }
-
-.text-primary {
-  color: #64a19d !important;
+.ObscuresUniversity{
+  background-image: url('../img/obscureuniversity.png');
 }
-
-footer {
-  padding: 5rem 0;
+.Songs{
+  background-image: url('../img/songs.jpg');
 }
